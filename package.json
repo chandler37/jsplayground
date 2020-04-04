@@ -1,0 +1,34 @@
+{
+  "name": "jsplayground",
+  "version": "1.0.0",
+  "description": "NPM Module Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets env src -d ./ --ignore src/index.test.js",
+    "dev": "babel --presets env src -d ./ --watch --ignore src/index.test.js",
+    "test": "jest --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandler37/jsplayground.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "template"
+  ],
+  "author": "David L. Chandler <immaculaterhelp@gmail.com> (https://github.com/chandler37)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chandler37/jsplayground/issues"
+  },
+  "homepage": "https://github.com/chandler37/jsplayground",
+  "dependencies": {
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0"
+  }
+}
